@@ -1,0 +1,24 @@
+# Node modules (Never push these!)
+node_modules/
+frontend/node_modules/
+
+# Hardhat compiled files and cache
+artifacts/
+cache/
+typechain-types/
+typechain/
+coverage/
+coverage.json
+
+# React / Vite build files
+frontend/dist/
+frontend/build/
+.eslintcache
+
+# Environment variables (Keep secrets safe!)
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
